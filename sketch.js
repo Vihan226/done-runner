@@ -245,13 +245,13 @@ h19.scale=1
 
 bowlingPlayer=createSprite(width/1-width/2,height/2)
 bowlingPlayer.addImage("bowlingmainplayer",bbImage)
-bowlingPlayer.scale=.1
+bowlingPlayer.scale=.03
 bowlingPlayer.visible=false
 
-bowlbounce=createSprite(width/.85-width/2,height/2,10,1000)
+bowlbounce=createSprite(width/.85-width/2,height/2,10,1500)
 bowlbounce.shapeColor="green"
 bowlbounce.visible=false
-bowlbounce2=createSprite(width/1.30-width/2,height/2,10,1000)
+bowlbounce2=createSprite(width/1.30-width/2,height/2,10,1500)
 bowlbounce2.shapeColor="green"
 bowlbounce2.visible=false
 
